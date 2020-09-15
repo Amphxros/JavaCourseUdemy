@@ -18,7 +18,7 @@ public class condicionales {
 		if(n%2==0 && n!=0) {
 			System.out.println("es un num par");
 		}
-		else {
+		if (n%2!=0) {
 			System.out.println("no es un num par");
 		}
 	
