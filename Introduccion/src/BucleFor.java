@@ -6,7 +6,7 @@ public class BucleFor {
 		// TODO Auto-generated method stub
 
 		Scanner tec= new Scanner(System.in);
-		int h=PideInt(tec,0,10,"escribe una altura: ");
+		int h=PideInt(tec,0,1000,"escribe una altura: ");
 		
 		for(int i=0;i<h; i++) {
 			for(int j=0;j<=i;j++) {
